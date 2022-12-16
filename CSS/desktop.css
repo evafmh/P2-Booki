@@ -1,6 +1,8 @@
 body{
     font-family: 'Raleway', sans-serif;
     margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*header*/
@@ -8,7 +10,6 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    padding-left: 20px;
 }
 
 #logo{
@@ -27,7 +28,7 @@ nav #navMenu{
 }
 
 nav a{
-    color:#D9D9D9;
+    color:black;
     text-decoration: none;
     padding-top: 40px;
     margin-left: 10px;
@@ -48,7 +49,7 @@ nav a{
 footer{
     display: flex;
     justify-content: space-between;
-    background: #F2F2F2;
+    background: #D9D9D9;
     padding: 10px 35px;
     margin: 20px;
 }
@@ -71,6 +72,45 @@ footer a{
 
 /*main*/
 
-p{
+main h1{
     font-weight: 700;
+    font-size: 22px;
 }
+
+main h2{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+main a{
+text-decoration: none;
+color: black;
+}
+
+/*Activites section*/
+
+.activitesSection{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.activitesBlock{
+    display: flex;
+    justify-content: space-between;
+}
+
+.activitesBlock h2{
+    border-radius: 0 0 15px 15px;
+    box-shadow: 3px 3px 4px #D9D9D9;
+    padding-left: 15px;
+    height: 56px;
+    line-height: 86px;
+}
+
+.activitesBlock img{
+    width: 300px;
+    height: 389px;
+    border-radius: 15px 15px 0 0;
+    object-fit:cover;
+}
+
