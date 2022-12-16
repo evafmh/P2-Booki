@@ -3,6 +3,8 @@ body{
     margin-top: 0px;
 }
 
+/*header*/
+
 header{
     display: flex;
     justify-content: space-between;
@@ -35,6 +37,39 @@ nav a{
     text-align: center;
     font-size: 16px;
  }
+
+ #navHebergements{ /*Blue color on Hébergements footer*/
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+}
+
+/*footer*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: #F2F2F2;
+    padding: 10px 35px;
+    margin: 20px;
+}
+
+footer .columnFooter{
+    width: 33%;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    padding-top: 10px;
+}
+
+/*main*/
 
 p{
     font-weight: 700;
