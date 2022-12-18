@@ -1,1 +1,15 @@
-@import "desktop.css";
+
+@media all and (max-width: 768px)
+
+{
+    h1{
+        color: green;
+    }
+    header{
+        background-color: red;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+
