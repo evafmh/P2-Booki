@@ -9,7 +9,6 @@
 /*Header for mobile*/
 
     header{
-        background-color: red;
         flex-direction: column;
         flex-wrap: wrap;
     }
@@ -22,9 +21,17 @@
         grid-template-columns: 1fr;
     }
 
+    .activitesBlock img{
+        height: 150px;
+    }
+
 /*Footer for mobile*/
     footer{
         flex-direction: column;
+    }
+
+    footer .columnFooter{
+        width: 100%;
     }
 
 

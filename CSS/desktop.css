@@ -11,6 +11,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 #logo{
@@ -51,6 +52,109 @@ nav a:active{ /*Blue color when selected*/
     border-top: 2px #0065FC solid;
 }
 
+/*main*/
+
+main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main h1{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+main a{
+text-decoration: none;
+color: black;
+}
+
+/*Search section*/
+
+.searchSection{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.titleBlock{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.searchButton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.filtersButtons{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fa-solid.fa-info{
+    color: #0065FC;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+
+
+/*Hébergements section*/
+
+.hebergementsSection{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*Populaires section*/
+
+.populairesSection{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*Activites section*/
+
+.activitesSection{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.activitesBlock{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2em;
+}
+
+.activitesBlock h2{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.activitesBlock h3{
+    border-radius: 0 0 15px 15px;
+    box-shadow: 3px 3px 4px #D9D9D9;
+    padding-left: 15px;
+    height: 56px;
+    line-height: 86px;
+    margin: 0;
+}
+
+.activitesBlock img{
+    width: 100%;
+    height: 389px;
+    border-radius: 15px 15px 0 0;
+    object-fit:cover;
+}
+
 /*footer*/
 
 footer{
@@ -59,6 +163,7 @@ footer{
     background: #D9D9D9;
     padding: 10px 35px;
     margin: 20px;
+    margin-top: 50px;
 }
 
 footer .columnFooter{
@@ -76,50 +181,3 @@ footer a{
     display: block;
     padding-top: 10px;
 }
-
-/*main*/
-
-main h1{
-    font-weight: 700;
-    font-size: 22px;
-}
-
-main h2{
-    font-weight: 600;
-    font-size: 16px;
-}
-
-main a{
-text-decoration: none;
-color: black;
-}
-
-/*Activites section*/
-
-.activitesSection{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.activitesBlock{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 2em;
-}
-
-.activitesBlock h2{
-    border-radius: 0 0 15px 15px;
-    box-shadow: 3px 3px 4px #D9D9D9;
-    padding-left: 15px;
-    height: 56px;
-    line-height: 86px;
-    margin: 0;
-}
-
-.activitesBlock img{
-    width: 100%;
-    height: 389px;
-    border-radius: 15px 15px 0 0;
-    object-fit:cover;
-}
-
