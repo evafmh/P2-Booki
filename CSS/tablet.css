@@ -5,4 +5,10 @@
     h1{
         color: red;
     }
+
+/*Activites section for tablet*/
+
+    .activitesBlock img{
+        height: 220px;
+    }
 }

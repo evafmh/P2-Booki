@@ -5,11 +5,27 @@
     h1{
         color: green;
     }
+
+/*Header for mobile*/
+
     header{
         background-color: red;
         flex-direction: column;
         flex-wrap: wrap;
     }
+
+/*Activites section for mobile*/
+
+
+    .activitesBlock{
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+/*Footer for mobile*/
+    footer{
+        flex-direction: column;
+    }
+
+
 }
-
-

@@ -32,15 +32,21 @@ nav a{
     color:black;
     text-decoration: none;
     padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
     margin-left: 10px;
     margin-right: 10px;
     display: block;
-    width: 250px;
     text-align: center;
     font-size: 16px;
  }
 
- #navHebergements{ /*Blue color on Hébergements footer*/
+ nav a:hover{ /*Blue color when hovering*/
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+}
+
+nav a:active{ /*Blue color when selected*/
     color: #0065FC;
     border-top: 2px #0065FC solid;
 }
@@ -96,8 +102,9 @@ color: black;
 }
 
 .activitesBlock{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2em;
 }
 
 .activitesBlock h2{
@@ -106,10 +113,11 @@ color: black;
     padding-left: 15px;
     height: 56px;
     line-height: 86px;
+    margin: 0;
 }
 
 .activitesBlock img{
-    width: 300px;
+    width: 100%;
     height: 389px;
     border-radius: 15px 15px 0 0;
     object-fit:cover;
