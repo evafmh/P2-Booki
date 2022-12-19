@@ -2,10 +2,7 @@
 @media all and (max-width: 768px)
 
 {
-    h1{
-        color: green;
-    }
-
+    
 /*Header for mobile*/
 
     header{
@@ -13,7 +10,48 @@
         flex-wrap: wrap;
     }
 
-/*Activites section for mobile*/
+    nav #navMenu{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    nav a{ 
+        border-bottom: 2px #F2F2F2 solid;
+    }
+
+    nav a:hover{ /*Blue color when hovering*/
+        color: #0065FC;
+        border-bottom: 2px #0065FC solid;
+        border-top: none;
+    }
+    
+    nav a:active{ /*Blue color when selected*/
+        color: #0065FC;
+        border-bottom: 2px #0065FC solid;
+        border-top: none;
+    }
+
+    /*Hebergements section for mobile*/
+
+    .hebergementsSection{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 0 0;
+    }
+
+    .hebergementsBlock{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    #moreHebergements{
+        display: none; 
+    }
+
+    /*Activites section for mobile*/
 
 
     .activitesBlock{
