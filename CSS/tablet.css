@@ -29,20 +29,14 @@
 
 .populairesSection h3{
     font-size: 14px;
-    margin-left: 10px;
 }
 
 .populairesSection h4{
     font-size: 13px; 
-    margin-left: 10px;
 }
 
 .populairesSection h4 strong{
     font-size: 13px; 
-}
-
-.populairesSection .score{
-    margin-left: 10px;
 }
 
 /*Activites section for tablet*/
