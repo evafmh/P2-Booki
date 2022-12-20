@@ -3,6 +3,48 @@
 
 {
 
+/*Hebergements and Populaires section for mobile*/
+
+.hebergementsAndPopulairesSection {
+    flex-wrap: wrap;
+}
+
+/*Hébergements section for tablet*/
+
+.hebergementsSection{
+    width: 100%;
+}
+
+/*Populaires section for tablet*/
+
+.populairesSection{
+    width: 100%;
+}
+
+.populairesBlock{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 2em;
+}
+
+.populairesSection h3{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.populairesSection h4{
+    font-size: 13px; 
+    margin-left: 10px;
+}
+
+.populairesSection h4 strong{
+    font-size: 13px; 
+}
+
+.populairesSection .score{
+    margin-left: 10px;
+}
+
 /*Activites section for tablet*/
 
     .activitesBlock img{

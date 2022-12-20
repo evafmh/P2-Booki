@@ -2,75 +2,91 @@
 @media all and (max-width: 768px)
 
 {
+
+body{
+    padding:unset;
+    margin: unset;
+}
     
 /*Header for mobile*/
 
-    header{
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
+header{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
-    nav #navMenu{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
+nav #navMenu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
-    nav a{ 
-        border-bottom: 2px #F2F2F2 solid;
-    }
+nav a{ 
+    border-bottom: 2px #F2F2F2 solid;
+}
 
-    nav a:hover{ /*Blue color when hovering*/
-        color: #0065FC;
-        border-bottom: 2px #0065FC solid;
-        border-top: none;
-    }
-    
-    nav a:active{ /*Blue color when selected*/
-        color: #0065FC;
-        border-bottom: 2px #0065FC solid;
-        border-top: none;
-    }
+nav a:hover{ /*Blue color when hovering*/
+    color: #0065FC;
+    border-bottom: 2px #0065FC solid;
+    border-top: none;
+}
 
-    /*Hebergements section for mobile*/
+nav a:active{ /*Blue color when selected*/
+    color: #0065FC;
+    border-bottom: 2px #0065FC solid;
+    border-top: none;
+}
 
-    .hebergementsSection{
-        margin-top: 50px;
-        margin-bottom: 50px;
-        background-color: white;
-        padding: 20px;
-        border-radius: 0 0;
-    }
+/*Hebergements and Populaires section for mobile*/
 
-    .hebergementsBlock{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    }
+.hebergementsAndPopulairesSection {
+    flex-wrap: wrap-reverse;
+}
 
-    #moreHebergements{
-        display: none; 
-    }
+/*Hebergements section for mobile*/
 
-    /*Activites section for mobile*/
+.hebergementsSection{
+    background-color: white;
+    border-radius: 0 0;
+    width: 100%;
+}
+
+.hebergementsBlock{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#moreHebergements{
+    display: none; 
+}
+
+/*Populaires section for mobile*/
+
+.populairesSection{
+    border-radius: 0 0;
+    width: 100%;
+}
+
+/*Activites section for mobile*/
 
 
-    .activitesBlock{
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr;
-    }
+.activitesBlock{
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
 
-    .activitesBlock img{
-        height: 150px;
-    }
+.activitesBlock img{
+    height: 150px;
+}
 
 /*Footer for mobile*/
-    footer{
-        flex-direction: column;
-    }
+footer{
+    flex-direction: column;
+}
 
-    footer .columnFooter{
-        width: 100%;
-    }
+footer .columnFooter{
+    width: 100%;
+}
 
 
 }
