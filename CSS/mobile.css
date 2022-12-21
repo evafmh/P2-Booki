@@ -55,9 +55,9 @@ nav a:active{ /*Blue color when selected*/
     font-size: 11px;
 }
 
-/*Hebergements and Populaires section for mobile*/
+/*Hebergements and Populaires sections display for mobile*/
 
-.hebergementsAndPopulairesSection {
+.hebergementsAndPopulairesSections{
     flex-wrap: wrap-reverse;
 }
 

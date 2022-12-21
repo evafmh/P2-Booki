@@ -232,9 +232,9 @@ color: black;
     color:#D9D9D9;
 }
 
-/*Hebergements and Populaires section*/
+/*Hebergements and Populaires sections display*/
 
-.hebergementsAndPopulairesSection{
+.hebergementsAndPopulairesSections{
     display: flex;
     justify-content: space-between;
 }

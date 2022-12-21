@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Booki</title>
         <link href="./CSS/desktop.css" rel="stylesheet">
-        <link href="./CSS/mobile.css" rel="stylesheet">
         <link href="./CSS/tablet.css" rel="stylesheet">
+        <link href="./CSS/mobile.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
@@ -14,7 +14,9 @@
     </head>
     <body>
         <header>
-            <img id="logo" src="Images_Booki/logo/Booki@3x.png" alt="Logo Booki">
+            <a href="index.html">
+                <img id="logo" src="Images_Booki/logo/Booki@3x.png" alt="Logo Booki">
+            </a>
             <nav>
                 <ul id="navMenu">
                     <li><a id="navHebergements" href="#hebergements">Hébergéments</a></li>
@@ -31,7 +33,7 @@
                     <p>En plein centre ville ou en pleine nature</p>
                 </div>
                 <div class="searchBlock">
-                    <form method="get" action="">
+                    <form>
                     <div id="formulaire">
                         <div id="locationIcon">
                         <label for="location"><i class="fa-sharp fa-solid fa-location-dot"></i></label>
@@ -80,7 +82,7 @@
                     <p>Plus de 500 logements sont disponibles dans cette ville.</p> 
                 </div>
             </section>           
-            <section class="hebergementsAndPopulairesSection">
+            <div class="hebergementsAndPopulairesSections">
                 <!--Section Hébergements-->
                 <article class="hebergementsSection">
                     <h2 id="hebergements">Hébergements à Marseille</h2>
@@ -90,7 +92,7 @@
                                 <img
                                 class="hebergementsImage"
                                 src="./Images_Booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                                alt="image hébergement 1">
+                                alt="Photo Auberge La Canebière">
                                 <div class="hebergementSummary">
                                     <h3>Auberge La Canebière</h3>
                                     <h4>Nuit à partir de 25<strong>€</strong></h4>
@@ -119,7 +121,7 @@
                                 <img
                                 class="hebergementsImage"
                                 src="./Images_Booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-                                alt="image hébergement 2">
+                                alt="Photo Hôtel du port">
                                 <div class="hebergementSummary">
                                     <h3>Hôtel du port</h3>
                                     <h4>Nuit à partir de 52<strong>€</strong></h4>
@@ -148,7 +150,7 @@
                                 <img
                                 class="hebergementsImage"
                                 src="./Images_Booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
-                                alt="image hébergement 3">
+                                alt="Photo Hôtel Les mouettes">
                                 <div class="hebergementSummary">
                                     <h3>Hôtel Les mouettes</h3>
                                     <h4>Nuit à partir de 76<strong>€</strong></h4>
@@ -177,7 +179,7 @@
                                 <img
                                 class="hebergementsImage"
                                 src="./Images_Booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
-                                alt="image hébergement 4">
+                                alt="Photo Hôtel de la mer">
                                 <div class="hebergementSummary">
                                     <h3>Hôtel de la mer</h3>
                                     <h4>Nuit à partir de 46<strong>€</strong></h4>
@@ -206,7 +208,7 @@
                                 <img
                                 class="hebergementsImage"
                                 src="./Images_Booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
-                                alt="image hébergement 5">
+                                alt="Photo Auberge Le Panier">
                                 <div class="hebergementSummary">
                                     <h3>Auberge Le Panier</h3>
                                     <h4>Nuit à partir de 23<strong>€</strong></h4>
@@ -235,7 +237,7 @@
                                 <img
                                 class="hebergementsImage"
                                 src="./Images_Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-                                alt="image hébergement 6">
+                                alt="Photo Hôtel Chez Amina">
                                 <div class="hebergementSummary">
                                     <h3>Hôtel Chez Amina</h3>
                                     <h4>Nuit à partir de 96<strong>€</strong></h4>
@@ -274,7 +276,7 @@
                                 <img
                                 class="populairesImage"
                                 src="./Images_Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                                alt="image populaire 1">
+                                alt="Photo Hôtel Le soleil du matin">
                                 <div class="populairesSummary">
                                     <div class="populairesInfo">
                                         <h3>Hôtel Le soleil du matin</h3>
@@ -305,7 +307,7 @@
                                 <img
                                 class="populairesImage"
                                 src="./Images_Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-                                alt="image populaire 2">
+                                alt="Photo Chambres d'hôtes Au coeur de l'eau">
                                 <div class="populairesSummary">
                                     <div class="populairesInfo">
                                         <h3>Chambres d’hôtes Au cœur de l’eau</h3>
@@ -336,7 +338,7 @@
                                 <img
                                 class="populairesImage"
                                 src="./Images_Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                                alt="image populaire 3">
+                                alt="Photo Hôtel Bleu et Blanc">
                                 <div class="populairesSummary">
                                     <div class="populairesInfo">
                                         <h3>Hôtel Bleu et Blanc</h3>
@@ -364,7 +366,7 @@
                         </div>
                     </div>
                 </article>
-            </section>
+            </div>
             <!--Section Activités-->
             <aside class="activitesSection">
                 <h2 id="activites">Activités à Marseille</h2>
@@ -374,7 +376,7 @@
                             <img
                             class="activitesImage"
                             src="./Images_Booki/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-                            alt="image activité 1">
+                            alt="Photo Vieux-Port">
                             <h3>Vieux-Port</h3>
                         </a>
                     </div>
@@ -383,7 +385,7 @@
                             <img
                             class="activitesImage"
                             src="./Images_Booki/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-                            alt="image activité 2">
+                            alt="Photo Fort de Pomègues">
                             <h3>Fort de Pomègues</h3>
                         </a>
                     </div>
@@ -392,7 +394,7 @@
                             <img
                             class="activitesImage"
                             src="./Images_Booki/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-                            alt="image activité 3">
+                            alt="Photo Parc national des Calanques">
                             <h3>Parc national des Calanques</h3>
                         </a>
                     </div>                    
@@ -401,7 +403,7 @@
                             <img
                             class="activitesImage"
                             src="./Images_Booki/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                            alt="image activité 4">
+                            alt="Photo Notre-Dame-de-la-Garde">
                             <h3>Notre-Dame-de-la-Garde</h3>
                         </a>
                     </div>
@@ -409,22 +411,6 @@
             </aside>
         </main>
 
-        <!--icon info-->
-        <i class="fa-solid fa-info"></i>
-        <!--icon dog-->
-        <i class="fa-solid fa-dog"></i>
-        <!--icon star-->
-        <i class="fa-solid fa-star"></i>
-        <!--icon person-->
-        <i class="fa-solid fa-person"></i>
-        <!--icon graph-->
-        <i class="fa-solid fa-chart-line"></i>
-        <!--icon heart-->
-        <i class="fa-solid fa-heart"></i>
-        <!--icon money bill-->
-        <i class="fa-solid fa-money-bill-wave"></i>
-        <!--icon location-->
-        <i class="fa-sharp fa-solid fa-location-dot"></i>
         <!--icon search-->
         <i class="fa-solid fa-magnifying-glass"></i>
 
