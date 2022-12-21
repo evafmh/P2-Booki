@@ -3,6 +3,21 @@
 
 {
 
+/*Search section for tablet*/
+
+.filtersBlock{
+    gap: 0.7em;
+}
+
+.filtersButtons {
+    gap: 0.5em;
+}
+
+.filterButtonCard {
+    padding: 14px 10px 14px 13px;
+    gap: 0.3em;
+}
+
 /*Hebergements and Populaires section for mobile*/
 
 .hebergementsAndPopulairesSection {

@@ -37,6 +37,24 @@ nav a:active{ /*Blue color when selected*/
     border-top: none;
 }
 
+/*Search section for mobile*/
+
+.filtersBlock{
+    flex-wrap: wrap;
+}
+
+.filtersButtons{
+    flex-wrap: wrap;
+}
+
+.filterButtonCard{
+    width:160px;
+}
+
+.filterButtonContent{
+    font-size: 11px;
+}
+
 /*Hebergements and Populaires section for mobile*/
 
 .hebergementsAndPopulairesSection {
@@ -82,6 +100,9 @@ nav a:active{ /*Blue color when selected*/
 /*Footer for mobile*/
 footer{
     flex-direction: column;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 footer .columnFooter{
