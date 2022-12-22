@@ -56,7 +56,11 @@
 
 /*Activites section for tablet*/
 
-    .activitesBlock img{
-        height: 220px;
-    }
+.activitesCard{
+    height: 267px;
+}
+
+.activitesImage{
+    height: 211px;
+}
 }

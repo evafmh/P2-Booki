@@ -52,6 +52,10 @@ nav a:active{ /*Blue color when selected*/
 
 /*Search section for mobile*/
 
+.searchSection{
+    padding: 0 20px;
+}
+
 .fa-solid.fa-magnifying-glass{
     width: 49px;
     height: 49px;
@@ -117,14 +121,21 @@ nav a:active{ /*Blue color when selected*/
 
 /*Activites section for mobile*/
 
+.activitesSection{
+    padding: 0 20px;
+}
 
 .activitesBlock{
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
 }
 
-.activitesBlock img{
-    height: 150px;
+.activitesCard{
+    height: 190px;
+}
+
+.activitesImage{
+    height: 134px;
 }
 
 /*Footer for mobile*/
