@@ -61,6 +61,7 @@ nav a:active{ /*Blue color when selected*/
     height: 49px;
     background-color: #0065FC;
     border-radius: 0 15px 15px 0;
+    border: 1px solid #0065FC;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
