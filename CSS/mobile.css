@@ -52,6 +52,23 @@ nav a:active{ /*Blue color when selected*/
 
 /*Search section for mobile*/
 
+.fa-solid.fa-magnifying-glass{
+    width: 49px;
+    height: 49px;
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+
+.searchButton{
+    display:none;
+}
+
 .filtersBlock{
     flex-wrap: wrap;
 }
