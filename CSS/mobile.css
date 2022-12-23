@@ -35,7 +35,7 @@ nav #navMenu{
     flex:1;
 }
 
-nav a{ 
+.navLink{ 
     border-bottom: 2px #F2F2F2 solid;
     display: block;
     text-align: center;
