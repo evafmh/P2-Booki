@@ -1,5 +1,5 @@
 
-@media all and (min-width: 768px) and (max-width: 992px)
+@media screen and (min-width: 768px) and (max-width: 992px)
 
 {
 
@@ -10,12 +10,12 @@
 }
 
 .filtersButtons {
-    gap: 0.5em;
+    gap: 0.7em;
 }
 
-.filterButtonCard {
-    padding: 14px 10px 14px 13px;
-    gap: 0.3em;
+.filtersButtonCard {
+    padding: 14px 10px 14px 11px;
+    gap: 0.25em;
 }
 
 /*Hebergements and Populaires sections display for tablet*/
@@ -28,33 +28,49 @@
 
 .hebergementsSection{
     width: 100%;
+    flex: unset;
+    margin: 0 0 20px 0;
+}
+
+.hebergementsBlock{
+    grid-gap: 2em;
 }
 
 /*Populaires section for tablet*/
 
 .populairesSection{
     width: 100%;
+    flex: unset;
+    margin: 20px 0 0 0;
+    padding-bottom: 40px;
 }
 
 .populairesBlock{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-gap: 2em;
 }
 
-.populairesSection h3{
+.populairesCard h3{
     font-size: 14px;
 }
 
-.populairesSection h4{
+.populairesCard h4{
     font-size: 13px; 
 }
 
-.populairesSection h4 strong{
+.populairesCard h4 strong{
     font-size: 13px; 
 }
 
 /*Activites section for tablet*/
+
+.activitesSection{
+    margin-top: 60px;
+}
+
+.activitesBlock{
+    margin: 40px 0 40px 0;
+}
 
 .activitesCard{
     height: 267px;
