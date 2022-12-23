@@ -27,7 +27,7 @@ nav #navMenu{
     margin: 20px;
 }
 
-.navLink{
+nav a{
     color:black;
     text-decoration: none;
     padding: 30px;
