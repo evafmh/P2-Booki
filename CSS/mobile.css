@@ -68,6 +68,16 @@ nav a:active{ /*Blue color when selected*/
     margin-bottom: 30px;
 }
 
+/*form*/
+
+#formulaire{
+    width: 250px;
+}
+
+#searchBar{
+    width: 200px;
+}
+
 .fa-solid.fa-magnifying-glass{
     width: 49px;
     height: 49px;

@@ -83,6 +83,10 @@ color: black;
 
 /*form*/
 
+form{
+    display: flex;
+}
+
 #formulaire{
     height: 49px;
     display: flex;
@@ -109,7 +113,6 @@ color: black;
 }
 
 .searchButton{
-    height: 49px;
     background-color: #0065FC;
     color: white;
     border: 1px solid #0065FC;
