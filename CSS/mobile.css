@@ -78,6 +78,10 @@ nav a:active{ /*Blue color when selected*/
     width: 200px;
 }
 
+.searchAction{
+    width: 49px;
+}
+
 .fa-solid.fa-magnifying-glass{
     width: 49px;
     height: 49px;
