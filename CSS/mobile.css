@@ -1,208 +1,205 @@
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 768px) {
 
-{
+    body {
+        padding: unset;
+        margin: unset;
+    }
 
-body{
-    padding:unset;
-    margin: unset;
-}
+    main {
+        margin-bottom: 80px;
+    }
+        
+    /*Header for mobile*/
 
-main {
-    margin-bottom: 80px;
-}
-    
-/*Header for mobile*/
+    header {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 
-header{
-    flex-direction: column;
-    flex-wrap: wrap;
-}
+    nav {
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
 
-nav{
-    width: 100%;
-    margin: 10px 0 10px 0;
-}
+    nav #nav-menu {
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+    }
 
-nav #navMenu{
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
-}
+    .nav-button {
+        flex:1;
+    }
 
-.navButton{
-    flex:1;
-}
+    .nav-link { 
+        border-bottom: 2px var(--lightgrey-color) solid;
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
 
-.navLink{ 
-    border-bottom: 2px #F2F2F2 solid;
-    display: block;
-    text-align: center;
-    margin: 0;
-}
+    nav a:hover { /*Blue color when hovering*/
+        color: var(--blue-color);
+        border-bottom: 2px var(--blue-color) solid;
+        border-top: none;
+    }
 
-nav a:hover{ /*Blue color when hovering*/
-    color: #0065FC;
-    border-bottom: 2px #0065FC solid;
-    border-top: none;
-}
+    nav a:active { /*Blue color when selected*/
+        color: var(--blue-color);
+        border-bottom: 2px var(--blue-color) solid;
+        border-top: none;
+    }
 
-nav a:active{ /*Blue color when selected*/
-    color: #0065FC;
-    border-bottom: 2px #0065FC solid;
-    border-top: none;
-}
+    /*Search section for mobile*/
 
-/*Search section for mobile*/
+    .search-section {
+        padding: 0 20px;
+    }
 
-.searchSection{
-    padding: 0 20px;
-}
+    .title-block {
+        margin-bottom: 30px;
+    }
 
-.titleBlock{
-    margin-bottom: 30px;
-}
+    .search-block {
+        margin-bottom: 30px;
+    }
 
-.searchBlock{
-    margin-bottom: 30px;
-}
+    /*location form*/
 
-/*form*/
+    #location-form-input {
+        width: 80%;
+    }
 
-#formulaire{
-    width: 250px;
-}
+    .search-action {
+        width: 49px;
+    }
 
-#searchBar{
-    width: 200px;
-}
+    .fa-solid.fa-magnifying-glass {
+        width: 49px;
+        height: 49px;
+        background-color: var(--blue-color);
+        border-radius: 0 15px 15px 0;
+        border: 1px solid var(--blue-color);
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        color: white;
+        cursor: pointer;
+    }
 
-.searchAction{
-    width: 49px;
-}
+    .search-button {
+        display:none;
+    }
 
-.fa-solid.fa-magnifying-glass{
-    width: 49px;
-    height: 49px;
-    background-color: #0065FC;
-    border-radius: 0 15px 15px 0;
-    border: 1px solid #0065FC;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    color: white;
-    cursor: pointer;
-}
+    /*filters*/
 
-.searchButton{
-    display:none;
-}
+    .filters-block {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-start;
+        margin-bottom: 40px;
+    }
 
-.filtersBlock{
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: flex-start;
-    margin-bottom: 40px;
-}
+    .filters-title {
+        align-self: flex-start;
+    }
 
-.filtersTitle{
-    align-self: flex-start;
-}
+    .filters-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 0;
+    }
 
-.filtersButtons{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin: 0;
-}
+    .filters-buttons-card {
+        padding: 16px 13px;
+    }
 
-.filtersButtonCard{
-    padding: 16px 13px;
-}
+    .filters-buttons-content {
+        font-size: 11px;
+    }
 
-.filterButtonContent{
-    font-size: 11px;
-}
+    /*Accomodations and Popular sections display for mobile*/
 
-/*Hebergements and Populaires sections display for mobile*/
+    .accomodations-and-popular-section {
+        flex-wrap: wrap-reverse;
+        margin-bottom: 0;
+    }
 
-.hebergementsAndPopulairesSections{
-    flex-wrap: wrap-reverse;
-}
+    /*Accomodations section for mobile*/
 
-/*Hebergements section for mobile*/
+    #accomodations-section {
+        background-color: white;
+        border-radius: 0 0;
+        width: 100%;
+        flex: unset;
+        margin: 0 0 20px 0;
+    }
 
-.hebergementsSection{
-    background-color: white;
-    border-radius: 0 0;
-    width: 100%;
-    flex: unset;
-    margin: 0 0 20px 0;
-}
+    #accomodations-title {
+        margin: 0 0 20px 0;
+    }
 
-#hebergements{
-    margin: 0 0 20px 0;
-}
+    .accomodations-block {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 1em;
+    }
 
-.hebergementsBlock{
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 1em;
-}
+    #more-accomodations {
+        display: none; 
+    }
 
-#moreHebergements{
-    display: none; 
-}
+    /*Popular section for mobile*/
 
-/*Populaires section for mobile*/
+    .popular-section {
+        border-radius: 0 0;
+        width: 100%;
+        flex: unset;
+        margin: 10px 0 10px 0;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
 
-.populairesSection{
-    border-radius: 0 0;
-    width: 100%;
-    flex: unset;
-    margin: 10px 0 10px 0;
-    padding-top: 10px;
-    padding-bottom: 40px;
-}
+    .popular-block {
+        grid-gap: 1em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
-.populairesBlock {
-    grid-gap: 1em;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+    /*Activities section for mobile*/
 
-/*Activites section for mobile*/
+    #activities-section {
+        margin-top: 20px;
+        padding: 20px 20px 0 20px;
+    }
 
-.activitesSection{
-    padding: 0 20px;
-}
+    .activities-block {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 1.5em;
+    }
 
-.activitesBlock{
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    grid-gap: 1.5em;
-}
+    .activities-card {
+        height: 190px;
+    }
 
-.activitesCard{
-    height: 190px;
-}
+    .activities-image {
+        height: 134px;
+    }
 
-.activitesImage{
-    height: 134px;
-}
+    /*Footer for mobile*/
+    footer {
+        flex-direction: column;
+        margin: 0;
+        padding: 20px 30px;
+    }
 
-/*Footer for mobile*/
-footer{
-    flex-direction: column;
-    margin: 0;
-    padding: 20px 30px;
-}
-
-footer .columnFooter{
-    width: 100%;
-}
-
+    footer .footer-column {
+        width: 100%;
+    }
 
 }

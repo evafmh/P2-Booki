@@ -1,81 +1,85 @@
-body{
+body {
     font-family: 'Raleway', sans-serif;
-    margin: 0;
+    margin: auto;
     padding-left: 20px;
     padding-right: 20px;
     max-width: 1400px;
+    --grey-color: #d9d9d9;
+    --lightgrey-color: #f2f2f2;
+    --blue-color: #0065fc;
+    --lightblue-color: #deebff;
 }
 
 /*header*/
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
 }
 
-#logo{
+#logo {
     width: 60px;
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
 }
 
-nav #navMenu{
+nav #nav-menu {
     display: flex;
     list-style: none;
-    padding: 20px 0 20px 0;
-    margin: 20px;
+    padding: 20px 0;
+    margin: 0 20px;
 }
 
-.navLink{
+.nav-link {
     color:black;
     text-decoration: none;
-    padding: 30px;
-    margin: 10px;
+    padding: 20px;
+    margin: 0px;
     font-weight: 400;
     font-size: 16px;
  }
 
- nav a:hover{ /*Blue color when hovering*/
-    color: #0065FC;
-    border-top: 2px #0065FC solid;
+ nav a:hover { /*Blue color when hovering*/
+    color: var(--blue-color);
+    border-top: 2px var(--blue-color) solid;
     font-weight: 500;
 }
 
-nav a:active{ /*Blue color when selected*/
-    color: #0065FC;
-    border-top: 2px #0065FC solid;
+nav a:active { /*Blue color when selected*/
+    color: var(--blue-color);
+    border-top: 2px var(--blue-color) solid;
     font-weight: 500;
 }
 
 /*main*/
 
-main{
+main {
     margin: 10px 0 10px 0;
 }
 
-main h1{
+main h1 {
     font-weight: 700;
     font-size: 22px;
 }
 
-main p{
+main p {
     font-weight: 400;
     font-size: 16px;
 }
 
-main a{
+main a {
 text-decoration: none;
 color: black;
 }
 
 /*Search section*/
 
-.searchSection{
+.search-section {
     margin: 15px 0 10px 0;
 }
 
-.searchBlock{
+.search-block {
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -83,18 +87,18 @@ color: black;
 
 /*form*/
 
-form{
+#location-form {
     display: flex;
 }
 
-#formulaire{
+#location-form-input {
     height: 49px;
     display: flex;
-    border: 1px solid #F2F2F2;
+    border: 1px solid var(--lightgrey-color);
     border-radius: 15px 0 0 15px;
 }
 
-#location{
+#location {
     height: 48px;
     border: none;
     font-weight: 700;
@@ -102,10 +106,10 @@ form{
     padding: 14px 16px;
 }
 
-#locationIcon{
+#location-icon {
     width: 50px;
     height: 49px;
-    background-color: #F2F2F2;
+    background-color: var(--lightgrey-color);
     border-radius: 15px 0 0 15px;
     display: flex;
     flex-wrap: wrap;
@@ -113,10 +117,10 @@ form{
     justify-content: center;
 }
 
-.searchButton{
-    background-color: #0065FC;
+.search-button {
+    background-color: var(--blue-color);
     color: white;
-    border: 1px solid #0065FC;
+    border: 1px solid var(--blue-color);
     border-radius: 0 15px 15px 0;
     display: flex;
     flex-wrap: wrap;
@@ -126,7 +130,7 @@ form{
     font-size: 18px;
 }
 
-.searchAction{
+.search-action {
     width: 132px;
     height: 49px;
     border: none;
@@ -139,13 +143,13 @@ form{
 	cursor: pointer;
 }
 
-.fa-solid.fa-magnifying-glass{
+.fa-solid.fa-magnifying-glass {
     display: none;
 }
 
 /*Filters block*/
 
-.filtersBlock{
+.filters-block {
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -153,13 +157,13 @@ form{
     align-items: center;
 }
 
-.filtersTitle{
+.filters-title {
     font-weight: 700;
     font-size: 18px;
 }
 
 
-.filtersButtons{
+.filters-buttons {
     display: flex;
     gap: 1em;
     align-items: center;
@@ -167,8 +171,8 @@ form{
     padding: 0;
 }
 
-.filtersButtonCard{
-    border: 2px solid #D9D9D9;
+.filters-buttons-card {
+    border: 2px solid var(--grey-color);
     border-radius: 25px;
     padding: 14px 20px;
     display: flex;
@@ -176,196 +180,201 @@ form{
     gap: 0.5em;
 }
 
-.filtersButtons a{
+.filters-buttons a {
     border-radius: 25px;
     display: block;
 }
 
-.filtersButtons a:hover{ /*Blue background when hovering*/
-    background-color: #DEEBFF;
+.filters-buttons a:hover { /*Blue background when hovering*/
+    background-color: var(--lightblue-color);
 }
 
-.filtersButtons a:active{ /*Blue background when clicking*/
-    background-color: #DEEBFF;
+.filters-buttons-card .fa-solid {
+    color: var(--blue-color);
 }
 
-.filtersButtonCard .fa-solid{
-    color: #0065FC;
-}
-
-.filterButtonContent{
+.filters-buttons-content {
     font-weight: 700;
     font-size: 17px;
+    margin:0
 }
 
 /*Info block*/
 
-.info{
+.info {
     display: flex;
     align-items: flex-start;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.info .fa-stack{
+.info .fa-stack {
     line-height: 18px;
+    width: 30px;
 }
 
-.info .fa-solid.fa-info{
-    color: #0065FC;
+.info .fa-solid.fa-info {
+    color: var(--blue-color);
+}
+
+.info .fa-regular.fa-circle {
+    color:var(--grey-color);
+}
+
+.info p {
     margin: 0;
 }
 
-.info .fa-regular.fa-circle{
-    color:#D9D9D9;
-}
+/*Accomodations and Popular sections display*/
 
-.info p{
-    margin: 0;
-}
-
-/*Hebergements and Populaires sections display*/
-
-.hebergementsAndPopulairesSections{
+.accomodations-and-popular-section {
     display: flex;
     justify-content: space-between;
     margin: 20px 0 40px 0;
 }
 
-.fa-solid.fa-star{
+.fa-solid.fa-star {
     height: 12px;
     width: 12px;
     padding-right: 2px;
 }
 
-/*Hébergements section*/
+/*Accomodations section*/
 
-.hebergementsSection{
+#accomodations-section {
     margin: 0 10px 10px 0;
-    background-color: #F2F2F2;
+    background-color: var(--lightgrey-color);
     padding: 20px;
     border-radius: 20px 20px;
     flex: 2
 }
 
-#hebergements{
+#accomodations-title {
     font-weight: 700;
     font-size: 22px; 
 }
 
-.hebergementsBlock{
+.accomodations-block {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 0.6em;
 }
 
-.hebergementsCard{
+.accomodations-card {
     background-color: white;
     border-radius: 20px;
     border: 5px solid white;
-    box-shadow: 0 3px 8px #D9D9D9;
+    box-shadow: 0 3px 8px var(--grey-color);
     height: 199px;
 }
 
-.hebergementsCard a{
+.accomodations-card a {
     border-radius: 20px;
     display: block;
 }
 
-.hebergementsImage{
+.accomodations-image {
     height: 124px;
     width: 100%;
     border-radius: 20px 20px 0 0;
     object-fit:cover;
 }
 
-.hebergementSummary{
+.accomodationsummary {
     width: 100%;
     justify-content: space-around;
     height: 75px;
     margin-left: 6px;
 }
 
-.hebergementsCard h3{
+.accomodations-card h3 {
     font-weight: 700;
     font-size: 16px;
     margin: 4px 0 5px 0;
 }
 
-.hebergementsCard h4{
+.accomodations-card h4 {
     font-weight: 400;
     font-size: 14px; 
     margin: 4px 0 5px 0;
 }
 
-.hebergementsCard h4 strong{
+.accomodations-card h4 strong {
     font-weight: 600;
     font-size: 14px; 
 }
 
-.hebergementsCard .score{
+.accomodations-card .score {
     margin: 4px 0 11px 0;
 }
 
-#moreHebergements{
+.score .bluestar {
+    color: var(--blue-color);
+}
+
+.score .greystar {
+    color: var(--lightgrey-color)
+}
+
+#more-accomodations {
     margin: 40px 0 20px 0;
     display: block;
     font-weight: 700;
     font-size: 18px; 
 }
 
-/*Populaires section*/
+/*Popular section*/
 
-.populairesSection{
+.popular-section {
     margin: 0 0 10px 10px;
-    background-color: #F2F2F2;
+    background-color: var(--lightgrey-color);
     padding: 20px;
     border-radius: 20px 20px;
     flex: 1;
 }
 
-.populairesTitle{
+.popular-title {
     display:flex;
     justify-content: space-between;
 }
 
-.fa-solid.fa-chart-line{
-    color: #0065FC;
+.fa-solid.fa-chart-line {
+    color: var(--blue-color);
     height: 15.75px;
     width: 18px;
     align-self: center;
 }
 
-.populairesBlock{
+.popular-block {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 2em;
 }
 
-.populairesCard{
+.popular-card {
     background-color: white;
     border-radius: 20px 20px;
     border: 5px solid white;
-    box-shadow: 0 3px 8px #D9D9D9;
+    box-shadow: 0 3px 8px var(--grey-color);
     height: 144px;
 }
 
-.populairesCard a{
+.popular-card a {
     display: flex;
     justify-content: flex-start;
     border-radius: 20px;
 }
 
-.populairesImage{
+.popular-image {
     height: 144px;
     width: 40%;
     border-radius: 20px 0 0 20px;
     object-fit:cover;
 }
 
-.populairesSummary{
+.popular-summary {
     height: 144px;
     width: 60%;
     display: flex;
@@ -374,68 +383,68 @@ form{
     align-content: space-between;
 }
 
-.populairesInfo{
+.popular-info {
     width: 100%;
 }
 
-#populaires{
+#popular {
     font-weight: 700;
     font-size: 22px; 
 }
 
-.populairesCard h3{
+.popular-card h3 {
     font-weight: 700;
     font-size: 16px;
     margin: 4px 0 5px 16px;
 }
 
-.populairesCard h4{
+.popular-card h4 {
     font-weight: 400;
     font-size: 14px; 
     margin: 4px 0 5px 16px;
 }
 
-.populairesCard h4 strong{
+.popular-card h4 strong {
     font-weight: 600;
     font-size: 14px; 
 }
 
-.populairesCard .score{
+.popular-card .score {
     margin: 4px 0 11px 16px;
 }
 
-/*Activites section*/
+/*Activities section*/
 
-.activitesSection{
+#activities-section {
     margin-bottom: 10px;
 }
 
-.activitesBlock{
+.activities-block  {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2em;
 }
 
-.activitesCard{
+.activities-card {
     height: 444px;
 }
 
-.activitesCard a{
+.activities-card a {
     display: flex;
     flex-wrap: wrap;
     border-radius: 15px;
 }
 
-.activitesImage{
+.activities-image {
     width: 100%;
     height: 389px;
     border-radius: 15px 15px 0 0;
     object-fit:cover;
 }
 
-.activitesName{
+.activities-name {
     border-radius: 0 0 15px 15px;
-    box-shadow: 0 3px 8px #D9D9D9;
+    box-shadow: 0 3px 8px var(--grey-color);
     padding-left: 15px;
     height: 56px;
     width: 100%;
@@ -444,12 +453,12 @@ form{
     align-content: center;
 }
 
-#activites{
+#activities-title {
     font-weight: 700;
     font-size: 22px;
 }
 
-.activitesCard h3{
+.activities-card h3 {
     font-weight: 700;
     font-size: 16px;
     margin: 0;
@@ -458,24 +467,24 @@ form{
 
 /*footer*/
 
-footer{
+footer {
     display: flex;
     justify-content: space-between;
-    background: #F2F2F2;
+    background: var(--lightgrey-color);
     padding: 15px 50px;
     margin-top: 50px;
 }
 
-footer .columnFooter{
+footer .footer-column {
     width: 33%;
 }
 
-footer ul{
+footer ul {
     list-style: none;
     padding: 0;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color:black;
     display: block;
@@ -484,7 +493,7 @@ footer a{
     font-size: 16px;
 }
 
-footer h4{
+footer h4 {
     font-weight: 700;
     font-size: 18px;
     margin: 30px 0 12px 0;

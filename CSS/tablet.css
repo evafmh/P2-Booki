@@ -1,82 +1,80 @@
 
-@media screen and (min-width: 768px) and (max-width: 992px)
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
-{
+    /*Search section for tablet*/
 
-/*Search section for tablet*/
+    .filters-block {
+        gap: 0.7em;
+    }
 
-.filtersBlock{
-    gap: 0.7em;
-}
+    .filters-buttons {
+        gap: 0.7em;
+    }
 
-.filtersButtons {
-    gap: 0.7em;
-}
+    .filters-buttons-card {
+        padding: 14px 10px 14px 11px;
+        gap: 0.25em;
+    }
 
-.filtersButtonCard {
-    padding: 14px 10px 14px 11px;
-    gap: 0.25em;
-}
+    /*Accomodations and Popular sections display for tablet*/
 
-/*Hebergements and Populaires sections display for tablet*/
+    .accomodations-and-popular-section {
+        flex-wrap: wrap;
+    }
 
-.hebergementsAndPopulairesSections{
-    flex-wrap: wrap;
-}
+    /*Accomodations section for tablet*/
 
-/*Hébergements section for tablet*/
+    #accomodations-section {
+        width: 100%;
+        flex: unset;
+        margin: 0 0 20px 0;
+    }
 
-.hebergementsSection{
-    width: 100%;
-    flex: unset;
-    margin: 0 0 20px 0;
-}
+    .accomodations-block {
+        grid-gap: 2em;
+    }
 
-.hebergementsBlock{
-    grid-gap: 2em;
-}
+    /*Popular section for tablet*/
 
-/*Populaires section for tablet*/
+    .popular-section {
+        width: 100%;
+        flex: unset;
+        margin: 20px 0 0 0;
+        padding-bottom: 40px;
+    }
 
-.populairesSection{
-    width: 100%;
-    flex: unset;
-    margin: 20px 0 0 0;
-    padding-bottom: 40px;
-}
+    .popular-block {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
 
-.populairesBlock{
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-}
+    .popular-card h3 {
+        font-size: 14px;
+    }
 
-.populairesCard h3{
-    font-size: 14px;
-}
+    .popular-card h4 {
+        font-size: 13px; 
+    }
 
-.populairesCard h4{
-    font-size: 13px; 
-}
+    .popular-card h4 strong {
+        font-size: 13px; 
+    }
 
-.populairesCard h4 strong{
-    font-size: 13px; 
-}
+    /*Activities section for tablet*/
 
-/*Activites section for tablet*/
+    #activities-section {
+        margin-top: 60px;
+    }
 
-.activitesSection{
-    margin-top: 60px;
-}
+    .activities-block {
+        margin: 40px 0 40px 0;
+    }
 
-.activitesBlock{
-    margin: 40px 0 40px 0;
-}
+    .activities-card {
+        height: 267px;
+    }
 
-.activitesCard{
-    height: 267px;
-}
-
-.activitesImage{
-    height: 211px;
-}
+    .activities-image {
+        height: 211px;
+    }
 }
