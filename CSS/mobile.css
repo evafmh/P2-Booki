@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     body {
         padding: unset;
@@ -40,13 +40,7 @@
         margin: 0;
     }
 
-    nav a:hover { /*Blue color when hovering*/
-        color: var(--blue-color);
-        border-bottom: 2px var(--blue-color) solid;
-        border-top: none;
-    }
-
-    nav a:active { /*Blue color when selected*/
+    nav a:hover, nav a:active { /*Blue color when hovering and selected*/
         color: var(--blue-color);
         border-bottom: 2px var(--blue-color) solid;
         border-top: none;
@@ -58,11 +52,7 @@
         padding: 0 20px;
     }
 
-    .title-block {
-        margin-bottom: 30px;
-    }
-
-    .search-block {
+    .title-block, .search-block {
         margin-bottom: 30px;
     }
 
@@ -70,6 +60,7 @@
 
     #location-form-input {
         width: 80%;
+        min-width: 250px;
     }
 
     .search-action {
