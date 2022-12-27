@@ -89,17 +89,25 @@ color: black;
 
 #location-form {
     display: flex;
+    width: 100%;
 }
 
 #location-form-input {
     height: 49px;
+    width: 25%;
+    min-width: 300px;
     display: flex;
     border: 1px solid var(--lightgrey-color);
     border-radius: 15px 0 0 15px;
 }
 
+#search-bar {
+    width: 100%;
+}
+
 #location {
     height: 48px;
+    width: 100%;
     border: none;
     font-weight: 700;
     font-size: 18px;
@@ -107,7 +115,7 @@ color: black;
 }
 
 #location-icon {
-    width: 50px;
+    min-width: 50px;
     height: 49px;
     background-color: var(--lightgrey-color);
     border-radius: 15px 0 0 15px;
@@ -162,13 +170,13 @@ color: black;
     font-size: 18px;
 }
 
-
 .filters-buttons {
     display: flex;
     gap: 1em;
     align-items: center;
     list-style: none;
     padding: 0;
+    width: 100%;
 }
 
 .filters-buttons-card {
@@ -242,7 +250,7 @@ color: black;
 /*Accomodations section*/
 
 #accomodations-section {
-    margin: 0 10px 10px 0;
+    margin: 0 5px 10px 0;
     background-color: var(--lightgrey-color);
     padding: 20px;
     border-radius: 20px 20px;
@@ -281,11 +289,8 @@ color: black;
     object-fit:cover;
 }
 
-.accomodationsummary {
-    width: 100%;
-    justify-content: space-around;
-    height: 75px;
-    margin-left: 6px;
+.accomodations-summary {
+    margin: 0 2px;
 }
 
 .accomodations-card h3 {
@@ -303,10 +308,6 @@ color: black;
 .accomodations-card h4 strong {
     font-weight: 600;
     font-size: 14px; 
-}
-
-.accomodations-card .score {
-    margin: 4px 0 11px 0;
 }
 
 .score .bluestar {
@@ -327,7 +328,7 @@ color: black;
 /*Popular section*/
 
 .popular-section {
-    margin: 0 0 10px 10px;
+    margin: 0 0 10px 5px;
     background-color: var(--lightgrey-color);
     padding: 20px;
     border-radius: 20px 20px;
@@ -375,8 +376,8 @@ color: black;
 }
 
 .popular-summary {
-    height: 144px;
     width: 60%;
+    padding: 0 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -385,6 +386,7 @@ color: black;
 
 .popular-info {
     width: 100%;
+    padding: 5px 0;
 }
 
 #popular {
@@ -445,7 +447,7 @@ color: black;
 .activities-name {
     border-radius: 0 0 15px 15px;
     box-shadow: 0 3px 8px var(--grey-color);
-    padding-left: 15px;
+    padding: 0 15px;
     height: 56px;
     width: 100%;
     display: flex;

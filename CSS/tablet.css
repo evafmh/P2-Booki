@@ -3,6 +3,10 @@
 
     /*Search section for tablet*/
 
+    #location-form-input {
+        width: 40%;
+    }
+
     .filters-block {
         gap: 0.7em;
     }
@@ -32,6 +36,10 @@
 
     .accomodations-block {
         grid-gap: 2em;
+    }
+
+    .accomodations-summary {
+        margin: 0 10px;
     }
 
     /*Popular section for tablet*/
