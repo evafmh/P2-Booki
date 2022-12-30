@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 767px) {
 
     body {
@@ -9,7 +8,7 @@
     main {
         margin-bottom: 80px;
     }
-        
+
     /*Header for mobile*/
 
     header {
@@ -30,17 +29,19 @@
     }
 
     .nav-button {
-        flex:1;
+        flex: 1;
     }
 
-    .nav-link { 
+    .nav-link {
         border-bottom: 2px var(--lightgrey-color) solid;
         display: block;
         text-align: center;
         margin: 0;
     }
 
-    nav a:hover, nav a:active { /*Blue color when hovering and selected*/
+    nav a:hover,
+    nav a:active {
+        /*Blue color when hovering and selected*/
         color: var(--blue-color);
         border-bottom: 2px var(--blue-color) solid;
         border-top: none;
@@ -52,14 +53,15 @@
         padding: 0 20px;
     }
 
-    .title-block, .search-block {
+    .title-block,
+    .search-block {
         margin-bottom: 30px;
     }
 
     /*location form*/
 
     #location-form-input {
-        width: 80%;
+        width: 100%;
         min-width: 250px;
     }
 
@@ -82,7 +84,7 @@
     }
 
     .search-button {
-        display:none;
+        display: none;
     }
 
     /*filters*/
@@ -146,7 +148,7 @@
     }
 
     #more-accomodations {
-        display: none; 
+        display: none;
     }
 
     /*Popular section for mobile*/
